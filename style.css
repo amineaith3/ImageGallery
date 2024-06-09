@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #daa543;
+    background-color: #f0f0f0;
 }
 
 .gallery-container {
@@ -13,8 +13,8 @@ body {
     width: 80%;
     max-width: 800px;
     overflow: hidden;
-    border: 2px solid #c99a18;
-    background-color: #d8c304;
+    border: 2px solid #ccc;
+    background-color: #fff;
 }
 
 .gallery {
@@ -37,13 +37,13 @@ body {
 }
 
 .controls button {
-    background-color: rgba(142, 139, 148, 0.5);
-    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     border: none;
     padding: 10px;
     cursor: pointer;
 }
 
 .controls button:hover {
-    background-color: rgba(151, 144, 144, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }

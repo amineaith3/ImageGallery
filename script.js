@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     prevButton.addEventListener('click', function() {
-        currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : (images.length - 1);
         updateGallery();
     });
 
